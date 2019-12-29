@@ -1,0 +1,86 @@
+#employeesT {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#employeesT th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+  
+#employeesT td, #employeesT th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#summary {
+	text-align: center;
+}
+
+#closing {
+	text-align: center;
+}
+
+#batman, #batman1, #batman2{
+	 text-shadow: 2px 2px 2px #CCCCCC;
+	 font-family: andes;
+	 text-align: center;
+	 color:  	#32CD32;
+}
+
+#center{
+	text-align: center;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin-left: 44px;
+}
+
+#container { 
+	width: 800px; 
+}
+
+ul { 
+	padding: 0; 
+	margin: 0;}
+	
+li {
+  padding: 0;
+  float: left;
+  margin: 10px;
+  list-style: none;
+  outline: solid;
+  width: 150px;
+  height: 150px;
+}
+
+img { 
+  width: 100%;
+  height: 100%;
+}
+
+
+.payrollToGame a {
+  background-color: gray;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 13px 12px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.backHome a {
+	background-color: gray;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 13px 12px;
+  text-decoration: none;
+  font-size: 12px;
+}
