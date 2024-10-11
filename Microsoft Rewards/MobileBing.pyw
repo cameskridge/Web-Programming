@@ -1,3 +1,5 @@
+#Scroll down to lines 34 and 42 to enter email and password. Nothing else is required.
+
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.chrome.options import Options
@@ -29,7 +31,7 @@ time.sleep(3)
 
 # Find the email input field, enter email, click next, and wait for the next page to load
 email_input = driver.find_element("name", "loginfmt")
-email_input.send_keys("camerondeenie@gmail.com")
+email_input.send_keys("ENTER EMAIL")
 time.sleep(1)
 next_button = driver.find_element("id", "idSIButton9")
 next_button.click()
@@ -37,7 +39,7 @@ next_button.click()
 # Wait for page to load, then enter password, press next
 time.sleep(2)
 passwd_input = driver.find_element("name", "passwd")
-passwd_input.send_keys("Pconlynow1.")
+passwd_input.send_keys("ENTER PASSWORD")
 sign_in_button = driver.find_element("id", "idSIButton9")
 sign_in_button.click()
 
